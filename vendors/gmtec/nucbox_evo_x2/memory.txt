@@ -1,0 +1,294 @@
+# dmidecode 3.5
+Getting SMBIOS data from sysfs.
+SMBIOS 3.7.0 present.
+# SMBIOS implementations newer than version 3.5.0 are not
+# fully supported by this version of dmidecode.
+
+Handle 0x0011, DMI type 16, 23 bytes
+Physical Memory Array
+  Location: System Board Or Motherboard
+  Use: System Memory
+  Error Correction Type: None
+  Maximum Capacity: 64 GB
+  Error Information Handle: 0x0010
+  Number Of Devices: 8
+
+Handle 0x0014, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x0013
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL A
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None
+
+Handle 0x0017, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x0016
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL B
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None
+
+Handle 0x001A, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x0019
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL C
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None
+
+Handle 0x001D, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x001C
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL D
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None
+
+Handle 0x0020, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x001F
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL E
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None
+
+Handle 0x0023, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x0022
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL F
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None
+
+Handle 0x0026, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x0025
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL G
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None
+
+Handle 0x0029, DMI type 17, 100 bytes
+Memory Device
+  Array Handle: 0x0011
+  Error Information Handle: 0x0028
+  Total Width: 32 bits
+  Data Width: 32 bits
+  Size: 16 GB
+  Form Factor: Other
+  Set: None
+  Locator: DIMM 0
+  Bank Locator: P0 CHANNEL H
+  Type: LPDDR5
+  Type Detail: Synchronous Unbuffered (Unregistered)
+  Speed: 8000 MT/s
+  Manufacturer: Samsung
+  Serial Number: 000000004B334B4C
+  Asset Tag: Not Specified
+  Part Number: K3KLALA0EM-MGCV
+  Rank: 2
+  Configured Memory Speed: 8000 MT/s
+  Minimum Voltage: 0.5 V
+  Maximum Voltage: 0.5 V
+  Configured Voltage: 0.5 V
+  Memory Technology: DRAM
+  Memory Operating Mode Capability: Volatile memory
+  Firmware Version: Unknown
+  Module Manufacturer ID: Bank 1, Hex 0xCE
+  Module Product ID: Unknown
+  Memory Subsystem Controller Manufacturer ID: Unknown
+  Memory Subsystem Controller Product ID: Unknown
+  Non-Volatile Size: None
+  Volatile Size: 16 GB
+  Cache Size: None
+  Logical Size: None

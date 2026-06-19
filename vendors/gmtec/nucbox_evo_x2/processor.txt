@@ -1,0 +1,61 @@
+# dmidecode 3.5
+Getting SMBIOS data from sysfs.
+SMBIOS 3.7.0 present.
+# SMBIOS implementations newer than version 3.5.0 are not
+# fully supported by this version of dmidecode.
+
+Handle 0x000E, DMI type 4, 48 bytes
+Processor Information
+  Socket Designation: FP11LPDDR5x
+  Type: Central Processor
+  Family: Zen
+  Manufacturer: Advanced Micro Devices, Inc.
+  ID: 00 0F B7 00 FF FB 8B 17
+  Signature: Family 26, Model 112, Stepping 0
+  Flags:
+    FPU (Floating-point unit on-chip)
+    VME (Virtual mode extension)
+    DE (Debugging extension)
+    PSE (Page size extension)
+    TSC (Time stamp counter)
+    MSR (Model specific registers)
+    PAE (Physical address extension)
+    MCE (Machine check exception)
+    CX8 (CMPXCHG8 instruction supported)
+    APIC (On-chip APIC hardware supported)
+    SEP (Fast system call)
+    MTRR (Memory type range registers)
+    PGE (Page global enable)
+    MCA (Machine check architecture)
+    CMOV (Conditional move instruction supported)
+    PAT (Page attribute table)
+    PSE-36 (36-bit page size extension)
+    CLFSH (CLFLUSH instruction supported)
+    MMX (MMX technology supported)
+    FXSR (FXSAVE and FXSTOR instructions supported)
+    SSE (Streaming SIMD extensions)
+    SSE2 (Streaming SIMD extensions 2)
+    HTT (Multi-threading)
+  Version: AMD RYZEN AI MAX+ 395 w/ Radeon 8060S
+  Voltage: 1.2 V
+  External Clock: 100 MHz
+  Max Speed: 5150 MHz
+  Current Speed: 3000 MHz
+  Status: Populated, Enabled
+  Upgrade: Other
+  L1 Cache Handle: 0x000B
+  L2 Cache Handle: 0x000C
+  L3 Cache Handle: 0x000D
+  Serial Number: Unknown
+  Asset Tag: Unknown
+  Part Number: Unknown
+  Core Count: 16
+  Core Enabled: 16
+  Thread Count: 32
+  Characteristics:
+    64-bit capable
+    Multi-Core
+    Hardware Thread
+    Execute Protection
+    Enhanced Virtualization
+    Power/Performance Control

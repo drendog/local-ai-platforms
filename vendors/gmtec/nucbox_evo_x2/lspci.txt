@@ -1,0 +1,41 @@
+00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1507 (rev 02)
+00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Device 1508 (rev 02)
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1509
+00:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150a (rev 02)
+00:01.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150a (rev 02)
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1509
+00:02.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150b (rev 02)
+00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150b (rev 02)
+00:02.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150b (rev 02)
+00:02.5 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150b (rev 02)
+00:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1509
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1509
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150c
+00:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150c
+00:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 150c
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 71)
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12b8
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12b9
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12ba
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12bb
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12bc
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12bd
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12be
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 12bf
+c1:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 05)
+c2:00.0 SD Host controller: Genesys Logic, Inc GL9755 SD Host Controller (rev 01)
+c3:00.0 Network controller: MEDIATEK Corp. Device 0717
+c4:00.0 Non-Volatile memory controller: Shenzhen Longsys Electronics Co., Ltd. Lexar NM790 NVME SSD (DRAM-less) (rev 01)
+c5:00.0 Display controller: Advanced Micro Devices, Inc. [AMD/ATI] Device 1586 (rev c1)
+c5:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Rembrandt Radeon High Definition Audio Controller
+c5:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 17e0
+c5:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Device 1587
+c5:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller
+c6:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 150d
+c6:00.1 Signal processing controller: Advanced Micro Devices, Inc. [AMD] Device 17f0 (rev 11)
+c7:00.0 USB controller: Advanced Micro Devices, Inc. [AMD] Device 1588
+c7:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Device 1589
+c7:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Device 158b
+c7:00.5 USB controller: Advanced Micro Devices, Inc. [AMD] Device 158d
+c7:00.6 USB controller: Advanced Micro Devices, Inc. [AMD] Device 158e

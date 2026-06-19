@@ -1,0 +1,24 @@
+# dmidecode 3.5
+Getting SMBIOS data from sysfs.
+SMBIOS 3.7.0 present.
+# SMBIOS implementations newer than version 3.5.0 are not
+# fully supported by this version of dmidecode.
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+  Manufacturer: GMKtec
+  Product Name: NucBox_EVO-X2
+  Version: Version 1.0
+  Serial Number: Default string
+  UUID: abc96200-d24a-11f0-b8bf-e2c0b2754300
+  Wake-up Type: Power Switch
+  SKU Number: EVO-X2-001
+  Family: MINI
+
+Handle 0x0006, DMI type 12, 5 bytes
+System Configuration Options
+  Option 1: Default string
+
+Handle 0x0007, DMI type 32, 20 bytes
+System Boot Information
+  Status: No errors detected
