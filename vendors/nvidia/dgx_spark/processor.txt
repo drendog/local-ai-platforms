@@ -1,0 +1,34 @@
+# dmidecode 3.5
+Getting SMBIOS data from sysfs.
+SMBIOS 3.3.0 present.
+
+Handle 0x000E, DMI type 4, 50 bytes
+Processor Information
+	Socket Designation: CPU01
+	Type: Central Processor
+	Family: ARMv9
+	Manufacturer: NVIDIA
+	ID: 00 00 00 00 01 89 26 04
+	Signature: JEP-106 Bank 0x00 Manufacturer 0x00, SoC ID 0x0000, SoC Revision 0x04268901
+	Version: GB10
+	Voltage: 1.1 V
+	External Clock: Unknown
+	Max Speed: 3900 MHz
+	Current Speed: 3900 MHz
+	Status: Populated, Enabled
+	Upgrade: None
+	L1 Cache Handle: 0x000B
+	L2 Cache Handle: 0x000C
+	L3 Cache Handle: 0x000D
+	Serial Number: NA
+	Asset Tag: NA
+	Part Number: Spark
+	Core Count: 20
+	Core Enabled: 20
+	Thread Count: 20
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Execute Protection
+		Arm64 SoC ID
+

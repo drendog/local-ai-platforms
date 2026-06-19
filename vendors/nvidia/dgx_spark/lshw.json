@@ -1,0 +1,1009 @@
+{
+  "id" : "tonix01",
+  "class" : "system",
+  "claimed" : true,
+  "handle" : "DMI:0001",
+  "description" : "Sistema",
+  "product" : "NVIDIA_DGX_Spark (0000)",
+  "vendor" : "NVIDIA",
+  "version" : "A.7",
+  "serial" : "1984825005578",
+  "width" : 64,
+  "configuration" : {
+    "boot" : "normal",
+    "chassis" : "server",
+    "family" : "DGX Spark",
+    "sku" : "0000",
+    "uuid" : "c78f259c-bfde-11d3-8000-4cbb47829464"
+  },
+  "capabilities" : {
+    "smbios-3.3.0" : "SMBIOS version 3.3.0",
+    "dmi-3.3.0" : "DMI version 3.3.0",
+    "smp" : "Symmetric Multi-Processing",
+    "cp15_barrier" : true,
+    "setend" : true,
+    "sve_default_vector_length" : true,
+    "swp" : true,
+    "tagged_addr_disabled" : true
+  },
+  "children" : [    {
+      "id" : "core",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "DMI:0002",
+      "description" : "Scheda madre",
+      "product" : "P4242",
+      "vendor" : "NVIDIA",
+      "physid" : "0",
+      "version" : "A04",
+      "serial" : "1984825005578",
+      "slot" : "BOTTOM",
+      "children" : [        {
+          "id" : "firmware",
+          "class" : "memory",
+          "claimed" : true,
+          "description" : "BIOS",
+          "vendor" : "American Megatrends International, LLC.",
+          "physid" : "1",
+          "version" : "5.36_0ACUM023",
+          "date" : "04/02/2026",
+          "units" : "bytes",
+          "size" : 65536,
+          "capacity" : 33554432,
+          "capabilities" : {
+            "pci" : "Bus PCI",
+            "upgrade" : "Il BIOS EEPROM può essere aggiornato",
+            "shadowing" : "Ombreggiatura del BIOS",
+            "cdboot" : "Avvio da CD-ROM/DVD",
+            "bootselect" : "Percorso di avvio selezionabile",
+            "socketedrom" : "La ROM del BIOS è inserita",
+            "acpi" : "ACPI",
+            "biosbootspecification" : "Specifica di avvio del BIOS",
+            "uefi" : "UEFI specification is supported"
+          }
+        },
+        {
+          "id" : "cache:0",
+          "class" : "memory",
+          "disabled" : true,
+          "claimed" : true,
+          "handle" : "DMI:000A",
+          "description" : "L1 cache",
+          "physid" : "a",
+          "slot" : "L1 Instruction Cache",
+          "units" : "bytes",
+          "size" : 65536,
+          "capacity" : 65536,
+          "configuration" : {
+            "level" : "1"
+          },
+          "capabilities" : {
+            "internal" : "Interno",
+            "instruction" : "Cache delle istruzioni"
+          }
+        },
+        {
+          "id" : "cache:1",
+          "class" : "memory",
+          "disabled" : true,
+          "claimed" : true,
+          "handle" : "DMI:000B",
+          "description" : "L1 cache",
+          "physid" : "b",
+          "slot" : "L1 Data Cache",
+          "units" : "bytes",
+          "size" : 65536,
+          "capacity" : 65536,
+          "configuration" : {
+            "level" : "1"
+          },
+          "capabilities" : {
+            "internal" : "Interno",
+            "write-back" : "Ripresa di scrittura",
+            "data" : "Cache di dati"
+          }
+        },
+        {
+          "id" : "cache:2",
+          "class" : "memory",
+          "disabled" : true,
+          "claimed" : true,
+          "handle" : "DMI:000C",
+          "description" : "L2 cache",
+          "physid" : "c",
+          "slot" : "L2 Cache",
+          "units" : "bytes",
+          "size" : 524288,
+          "capacity" : 524288,
+          "configuration" : {
+            "level" : "2"
+          },
+          "capabilities" : {
+            "internal" : "Interno",
+            "write-back" : "Ripresa di scrittura",
+            "unified" : "Cache unificata"
+          }
+        },
+        {
+          "id" : "cache:3",
+          "class" : "memory",
+          "disabled" : true,
+          "claimed" : true,
+          "handle" : "DMI:000D",
+          "description" : "L3 cache",
+          "physid" : "d",
+          "slot" : "L3 Cache",
+          "units" : "bytes",
+          "size" : 8388608,
+          "capacity" : 8388608,
+          "configuration" : {
+            "level" : "3"
+          },
+          "capabilities" : {
+            "internal" : "Interno",
+            "write-back" : "Ripresa di scrittura",
+            "unified" : "Cache unificata"
+          }
+        },
+        {
+          "id" : "cpu",
+          "class" : "processor",
+          "claimed" : true,
+          "handle" : "DMI:000E",
+          "description" : "CPU",
+          "product" : "(Spark)",
+          "vendor" : "NVIDIA",
+          "physid" : "e",
+          "businfo" : "cpu@0",
+          "version" : "GB10",
+          "serial" : "NA",
+          "slot" : "CPU01",
+          "units" : "Hz",
+          "size" : 2808000000,
+          "capacity" : 3900000000,
+          "configuration" : {
+            "cores" : "20",
+            "enabledcores" : "20",
+            "threads" : "20"
+          },
+          "capabilities" : {
+            "lm" : "64-bit capable",
+            "cpufreq" : "CPU Frequency scaling"
+          }
+        },
+        {
+          "id" : "memory",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:0010",
+          "description" : "Memoria di sistema",
+          "physid" : "10",
+          "slot" : "Scheda di sistema o scheda madre",
+          "units" : "bytes",
+          "size" : 137438953472,
+          "children" : [            {
+              "id" : "bank",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0011",
+              "description" : "Chip Sincrono 8533 MHz (0,1 ns)",
+              "product" : "None",
+              "vendor" : "SK Hynix",
+              "physid" : "0",
+              "serial" : "None",
+              "slot" : "DIMM0",
+              "units" : "bytes",
+              "size" : 137438953472,
+              "width" : 32,
+              "clock" : 4238032704
+            }]
+        },
+        {
+          "id" : "pci:0",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:01",
+          "description" : "PCI bridge",
+          "product" : "NVIDIA Corporation",
+          "vendor" : "NVIDIA Corporation",
+          "physid" : "100",
+          "businfo" : "pci@0000:00:00.0",
+          "version" : "01",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "pcieport"
+          },
+          "capabilities" : {
+            "pci" : true,
+            "pm" : "Power Management",
+            "msi" : "Message Signalled Interrupts",
+            "pciexpress" : "PCI Express",
+            "normal_decode" : true,
+            "bus_master" : "bus mastering",
+            "cap_list" : "PCI capabilities listing"
+          }
+        },
+        {
+          "id" : "pci:1",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0002:01",
+          "description" : "PCI bridge",
+          "product" : "NVIDIA Corporation",
+          "vendor" : "NVIDIA Corporation",
+          "physid" : "101",
+          "businfo" : "pci@0002:00:00.0",
+          "version" : "01",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "pcieport"
+          },
+          "capabilities" : {
+            "pci" : true,
+            "pm" : "Power Management",
+            "msi" : "Message Signalled Interrupts",
+            "pciexpress" : "PCI Express",
+            "normal_decode" : true,
+            "bus_master" : "bus mastering",
+            "cap_list" : "PCI capabilities listing"
+          }
+        },
+        {
+          "id" : "pci:2",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0004:01",
+          "description" : "PCI bridge",
+          "product" : "NVIDIA Corporation",
+          "vendor" : "NVIDIA Corporation",
+          "physid" : "102",
+          "businfo" : "pci@0004:00:00.0",
+          "version" : "01",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "pcieport"
+          },
+          "capabilities" : {
+            "pci" : true,
+            "pm" : "Power Management",
+            "msi" : "Message Signalled Interrupts",
+            "pciexpress" : "PCI Express",
+            "normal_decode" : true,
+            "bus_master" : "bus mastering",
+            "cap_list" : "PCI capabilities listing"
+          },
+          "children" : [            {
+              "id" : "nvme",
+              "class" : "storage",
+              "claimed" : true,
+              "handle" : "PCI:0004:01:00.0",
+              "description" : "NVMe device",
+              "product" : "SAMSUNG MZALC4T0HBL1-00B07",
+              "vendor" : "Samsung Electronics Co Ltd",
+              "physid" : "0",
+              "businfo" : "pci@0004:01:00.0",
+              "logicalname" : "/dev/nvme0",
+              "version" : "NXHB202Q",
+              "serial" : "S8C2NG0YA34016",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "nvme",
+                "latency" : "0",
+                "nqn" : "nqn.1994-11.com.samsung:nvme:PM9E1:M.2:S8C2NG0YA34016",
+                "state" : "live"
+              },
+              "capabilities" : {
+                "nvme" : true,
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "pciexpress" : "PCI Express",
+                "msix" : "MSI-X",
+                "nvm_express" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "namespace:0",
+                  "class" : "disk",
+                  "claimed" : true,
+                  "description" : "NVMe disk",
+                  "physid" : "0",
+                  "logicalname" : "hwmon1"
+                },
+                {
+                  "id" : "namespace:1",
+                  "class" : "disk",
+                  "claimed" : true,
+                  "description" : "NVMe disk",
+                  "physid" : "2",
+                  "logicalname" : "/dev/ng0n1"
+                },
+                {
+                  "id" : "namespace:2",
+                  "class" : "disk",
+                  "claimed" : true,
+                  "handle" : "GUID:fbf6d7ec-4c62-421a-ad59-c797056fc73f",
+                  "description" : "NVMe disk",
+                  "physid" : "1",
+                  "businfo" : "nvme@0:1",
+                  "logicalname" : "/dev/nvme0n1",
+                  "units" : "bytes",
+                  "size" : 4096805658624,
+                  "configuration" : {
+                    "guid" : "fbf6d7ec-4c62-421a-ad59-c797056fc73f",
+                    "logicalsectorsize" : "512",
+                    "sectorsize" : "512",
+                    "wwid" : "eui.002538ca5150e244"
+                  },
+                  "capabilities" : {
+                    "gpt-1.00" : "GUID Partition Table version 1.00",
+                    "partitioned" : "Partitioned disk",
+                    "partitioned:gpt" : "GUID partition table"
+                  },
+                  "children" : [                    {
+                      "id" : "volume:0",
+                      "class" : "volume",
+                      "claimed" : true,
+                      "handle" : "GUID:88df73c8-497a-4b1d-be95-4e318905d1fb",
+                      "description" : "Windows FAT volume",
+                      "vendor" : "mkfs.fat",
+                      "physid" : "1",
+                      "businfo" : "nvme@0:1,1",
+                      "logicalname" : ["/dev/nvme0n1p1", "/boot/efi"],
+                      "dev" : "259:1",
+                      "version" : "FAT32",
+                      "serial" : "6995-0e40",
+                      "size" : 311410688,
+                      "capacity" : 312475136,
+                      "configuration" : {
+                        "FATs" : "2",
+                        "filesystem" : "fat",
+                        "label" : "EFI",
+                        "mount.fstype" : "vfat",
+                        "mount.options" : "rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro",
+                        "state" : "mounted"
+                      },
+                      "capabilities" : {
+                        "boot" : "Contains boot code",
+                        "fat" : "Windows FAT",
+                        "initialized" : "volume inizializzato"
+                      }
+                    },
+                    {
+                      "id" : "volume:1",
+                      "class" : "volume",
+                      "claimed" : true,
+                      "handle" : "GUID:2256ca5f-aac4-429d-b5aa-1f1745825734",
+                      "description" : "EXT4 volume",
+                      "vendor" : "Linux",
+                      "physid" : "2",
+                      "businfo" : "nvme@0:1,2",
+                      "logicalname" : ["/dev/nvme0n1p2", "/"],
+                      "dev" : "259:2",
+                      "version" : "1.0",
+                      "serial" : "02a57489-a431-46d3-ab1c-3fb3dd966782",
+                      "size" : 4096492113920,
+                      "capacity" : 4096492116992,
+                      "configuration" : {
+                        "created" : "2025-10-10 05:28:07",
+                        "filesystem" : "ext4",
+                        "label" : "root",
+                        "lastmountpoint" : "/",
+                        "modified" : "2026-06-19 12:50:57",
+                        "mount.fstype" : "ext4",
+                        "mount.options" : "rw,relatime,errors=remount-ro",
+                        "mounted" : "2026-06-18 13:49:37",
+                        "state" : "mounted"
+                      },
+                      "capabilities" : {
+                        "journaled" : true,
+                        "extended_attributes" : "Attributi Estesi",
+                        "large_files" : "4GB+ files",
+                        "huge_files" : "16TB+ files",
+                        "dir_nlink" : "con oltre 65000 sottodirectory",
+                        "recover" : "necessità di recupero",
+                        "64bit" : "File system a 64 bit",
+                        "extents" : "assegnazione basata sull'estensione",
+                        "ext4" : true,
+                        "ext2" : "EXT2/EXT3",
+                        "initialized" : "volume inizializzato"
+                      }
+                    }]
+                }]
+            }]
+        },
+        {
+          "id" : "pci:3",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0007:01",
+          "description" : "PCI bridge",
+          "product" : "NVIDIA Corporation",
+          "vendor" : "NVIDIA Corporation",
+          "physid" : "103",
+          "businfo" : "pci@0007:00:00.0",
+          "version" : "01",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "pcieport"
+          },
+          "capabilities" : {
+            "pci" : true,
+            "pm" : "Power Management",
+            "msi" : "Message Signalled Interrupts",
+            "pciexpress" : "PCI Express",
+            "normal_decode" : true,
+            "bus_master" : "bus mastering",
+            "cap_list" : "PCI capabilities listing"
+          },
+          "children" : [            {
+              "id" : "network",
+              "class" : "network",
+              "claimed" : true,
+              "handle" : "PCI:0007:01:00.0",
+              "description" : "Ethernet interface",
+              "product" : "Realtek Semiconductor Co., Ltd.",
+              "vendor" : "Realtek Semiconductor Co., Ltd.",
+              "physid" : "0",
+              "businfo" : "pci@0007:01:00.0",
+              "logicalname" : "enP7s7",
+              "version" : "05",
+              "serial" : "4c:bb:47:82:94:63",
+              "units" : "bit/s",
+              "size" : 1000000000,
+              "capacity" : 10000000000,
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "autonegotiation" : "on",
+                "broadcast" : "yes",
+                "driver" : "r8127",
+                "driverversion" : "11.014.00-NAPI",
+                "duplex" : "full",
+                "ip" : "192.168.100.174",
+                "latency" : "0",
+                "link" : "yes",
+                "multicast" : "yes",
+                "port" : "twisted pair",
+                "speed" : "1Gbit/s"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "pciexpress" : "PCI Express",
+                "msix" : "MSI-X",
+                "vpd" : "Vital Product Data",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "ethernet" : true,
+                "physical" : "Interfaccia fisica",
+                "tp" : "doppino telefonico",
+                "10bt" : "10Mbit/s",
+                "10bt-fd" : "10Mbit/s (full duplex)",
+                "100bt" : "100Mbit/s",
+                "100bt-fd" : "100Mbit/s (full duplex)",
+                "1000bt-fd" : "1Gbit/s (full duplex)",
+                "10000bt-fd" : "10Gbit/s (full duplex)",
+                "autonegotiation" : "Auto-negoziazione"
+              }
+            }]
+        },
+        {
+          "id" : "pci:4",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0009:01",
+          "description" : "PCI bridge",
+          "product" : "NVIDIA Corporation",
+          "vendor" : "NVIDIA Corporation",
+          "physid" : "104",
+          "businfo" : "pci@0009:00:00.0",
+          "version" : "01",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "pcieport"
+          },
+          "capabilities" : {
+            "pci" : true,
+            "pm" : "Power Management",
+            "msi" : "Message Signalled Interrupts",
+            "pciexpress" : "PCI Express",
+            "normal_decode" : true,
+            "bus_master" : "bus mastering",
+            "cap_list" : "PCI capabilities listing"
+          },
+          "children" : [            {
+              "id" : "network",
+              "class" : "network",
+              "disabled" : true,
+              "claimed" : true,
+              "handle" : "PCI:0009:01:00.0",
+              "description" : "Ethernet interface",
+              "product" : "MEDIATEK Corp.",
+              "vendor" : "MEDIATEK Corp.",
+              "physid" : "0",
+              "businfo" : "pci@0009:01:00.0",
+              "logicalname" : "wlP9s9",
+              "version" : "00",
+              "serial" : "50:2e:91:77:78:80",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "broadcast" : "yes",
+                "driver" : "mt7925e",
+                "driverversion" : "6.17.0-1021-nvidia",
+                "firmware" : "____000000-20251210093025",
+                "latency" : "0",
+                "link" : "no",
+                "multicast" : "yes"
+              },
+              "capabilities" : {
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "ethernet" : true,
+                "physical" : "Interfaccia fisica"
+              }
+            }]
+        },
+        {
+          "id" : "pci:5",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:000f:01",
+          "description" : "PCI bridge",
+          "product" : "NVIDIA Corporation",
+          "vendor" : "NVIDIA Corporation",
+          "physid" : "0",
+          "businfo" : "pci@000f:00:00.0",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "pcieport"
+          },
+          "capabilities" : {
+            "pci" : true,
+            "pm" : "Power Management",
+            "pciexpress" : "PCI Express",
+            "msi" : "Message Signalled Interrupts",
+            "normal_decode" : true,
+            "bus_master" : "bus mastering",
+            "cap_list" : "PCI capabilities listing"
+          },
+          "children" : [            {
+              "id" : "display",
+              "class" : "display",
+              "claimed" : true,
+              "handle" : "PCI:000f:01:00.0",
+              "description" : "VGA compatible controller",
+              "product" : "NVIDIA Corporation",
+              "vendor" : "NVIDIA Corporation",
+              "physid" : "0",
+              "businfo" : "pci@000f:01:00.0",
+              "version" : "a1",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "nvidia",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "pciexpress" : "PCI Express",
+                "msix" : "MSI-X",
+                "vga_controller" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              }
+            }]
+        },
+        {
+          "id" : "pnp00:00",
+          "class" : "system",
+          "claimed" : true,
+          "product" : "PnP device PNP0c02",
+          "physid" : "2",
+          "configuration" : {
+            "driver" : "system"
+          },
+          "capabilities" : {
+            "pnp" : true
+          }
+        },
+        {
+          "id" : "pnp00:01",
+          "class" : "system",
+          "claimed" : true,
+          "product" : "PnP device PNP0c02",
+          "physid" : "3",
+          "configuration" : {
+            "driver" : "system"
+          },
+          "capabilities" : {
+            "pnp" : true
+          }
+        }]
+    },
+    {
+      "id" : "usbhost:0",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:1:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "1",
+      "businfo" : "usb@1",
+      "logicalname" : "usb1",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "480Mbit/s"
+      },
+      "capabilities" : {
+        "usb-2.00" : "USB 2.0"
+      }
+    },
+    {
+      "id" : "usbhost:1",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:2:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "2",
+      "businfo" : "usb@2",
+      "logicalname" : "usb2",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "10000Mbit/s"
+      },
+      "capabilities" : {
+        "usb-3.10" : true
+      }
+    },
+    {
+      "id" : "usbhost:2",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:3:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "3",
+      "businfo" : "usb@3",
+      "logicalname" : "usb3",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "480Mbit/s"
+      },
+      "capabilities" : {
+        "usb-2.00" : "USB 2.0"
+      },
+      "children" : [        {
+          "id" : "usb",
+          "class" : "input",
+          "claimed" : true,
+          "handle" : "USB:3:2",
+          "description" : "Tastiera",
+          "product" : "Logitech USB Keyboard",
+          "vendor" : "Logitech",
+          "physid" : "1",
+          "businfo" : "usb@3:1",
+          "logicalname" : ["input3", "/dev/input/event3", "input3::capslock", "input3::compose", "input3::kana", "input3::numlock", "input3::scrolllock", "input4", "/dev/input/event4"],
+          "version" : "62.00",
+          "configuration" : {
+            "driver" : "usbhid",
+            "maxpower" : "90mA",
+            "speed" : "1Mbit/s"
+          },
+          "capabilities" : {
+            "usb-1.10" : "USB 1.1",
+            "usb" : "USB"
+          }
+        }]
+    },
+    {
+      "id" : "usbhost:3",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:4:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "4",
+      "businfo" : "usb@4",
+      "logicalname" : "usb4",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "10000Mbit/s"
+      },
+      "capabilities" : {
+        "usb-3.10" : true
+      }
+    },
+    {
+      "id" : "usbhost:4",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:5:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "5",
+      "businfo" : "usb@5",
+      "logicalname" : "usb5",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "480Mbit/s"
+      },
+      "capabilities" : {
+        "usb-2.00" : "USB 2.0"
+      }
+    },
+    {
+      "id" : "usbhost:5",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:6:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "6",
+      "businfo" : "usb@6",
+      "logicalname" : "usb6",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "10000Mbit/s"
+      },
+      "capabilities" : {
+        "usb-3.10" : true
+      }
+    },
+    {
+      "id" : "usbhost:6",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:7:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "7",
+      "businfo" : "usb@7",
+      "logicalname" : "usb7",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "480Mbit/s"
+      },
+      "capabilities" : {
+        "usb-2.00" : "USB 2.0"
+      }
+    },
+    {
+      "id" : "usbhost:7",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:8:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "8",
+      "businfo" : "usb@8",
+      "logicalname" : "usb8",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "10000Mbit/s"
+      },
+      "capabilities" : {
+        "usb-3.10" : true
+      }
+    },
+    {
+      "id" : "usbhost:8",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:9:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "9",
+      "businfo" : "usb@9",
+      "logicalname" : "usb9",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "480Mbit/s"
+      },
+      "capabilities" : {
+        "usb-2.00" : "USB 2.0"
+      }
+    },
+    {
+      "id" : "usbhost:9",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:10:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "a",
+      "businfo" : "usb@10",
+      "logicalname" : "usb10",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "10000Mbit/s"
+      },
+      "capabilities" : {
+        "usb-3.10" : true
+      }
+    },
+    {
+      "id" : "usbhost:10",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:11:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "b",
+      "businfo" : "usb@11",
+      "logicalname" : "usb11",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "2",
+        "speed" : "480Mbit/s"
+      },
+      "capabilities" : {
+        "usb-2.00" : "USB 2.0"
+      },
+      "children" : [        {
+          "id" : "usb",
+          "class" : "communication",
+          "claimed" : true,
+          "handle" : "USB:11:2",
+          "description" : "Interfaccia wireless Bluetooth",
+          "product" : "Wireless_Device",
+          "vendor" : "MediaTek Inc.",
+          "physid" : "2",
+          "businfo" : "usb@11:2",
+          "version" : "1.00",
+          "serial" : "000000000",
+          "configuration" : {
+            "driver" : "btusb",
+            "maxpower" : "100mA",
+            "speed" : "480Mbit/s"
+          },
+          "capabilities" : {
+            "usb-2.10" : true,
+            "bluetooth" : "Radio senza fili Bluetooth"
+          }
+        }]
+    },
+    {
+      "id" : "usbhost:11",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "USB:12:1",
+      "product" : "xHCI Host Controller",
+      "vendor" : "Linux 6.17.0-1021-nvidia xhci-hcd",
+      "physid" : "c",
+      "businfo" : "usb@12",
+      "logicalname" : "usb12",
+      "version" : "6.17",
+      "configuration" : {
+        "driver" : "hub",
+        "slots" : "1",
+        "speed" : "10000Mbit/s"
+      },
+      "capabilities" : {
+        "usb-3.10" : true
+      }
+    },
+    {
+      "id" : "sound",
+      "class" : "multimedia",
+      "claimed" : true,
+      "description" : "NVIDIA",
+      "physid" : "d",
+      "logicalname" : ["card0", "/dev/snd/controlC0", "/dev/snd/hwC0D0", "/dev/snd/pcmC0D3p", "/dev/snd/pcmC0D7p", "/dev/snd/pcmC0D8p", "/dev/snd/pcmC0D9p"]
+    },
+    {
+      "id" : "graphics",
+      "class" : "display",
+      "claimed" : true,
+      "product" : "simpledrmdrmfb",
+      "physid" : "e",
+      "logicalname" : "/dev/fb0",
+      "configuration" : {
+        "depth" : "32",
+        "resolution" : "1920,1080"
+      },
+      "capabilities" : {
+        "fb" : "framebuffer"
+      }
+    },
+    {
+      "id" : "input:0",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Power Button",
+      "physid" : "f",
+      "logicalname" : ["input0", "/dev/input/event0"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:1",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Lid Switch",
+      "physid" : "10",
+      "logicalname" : ["input1", "/dev/input/event1"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:2",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Sleep Button",
+      "physid" : "11",
+      "logicalname" : ["input2", "/dev/input/event2"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:3",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "NVIDIA HDMI/DP,pcm=3",
+      "physid" : "12",
+      "logicalname" : ["input5", "/dev/input/event5"]
+    },
+    {
+      "id" : "input:4",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "NVIDIA HDMI/DP,pcm=7",
+      "physid" : "13",
+      "logicalname" : ["input6", "/dev/input/event6"]
+    },
+    {
+      "id" : "input:5",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "NVIDIA HDMI/DP,pcm=8",
+      "physid" : "14",
+      "logicalname" : ["input7", "/dev/input/event7"]
+    },
+    {
+      "id" : "input:6",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "NVIDIA HDMI/DP,pcm=9",
+      "physid" : "15",
+      "logicalname" : ["input8", "/dev/input/event8"]
+    }]
+}
