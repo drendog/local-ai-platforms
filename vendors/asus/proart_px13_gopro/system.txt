@@ -1,0 +1,26 @@
+# dmidecode 3.7
+Getting SMBIOS data from sysfs.
+SMBIOS 3.7.0 present.
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: ASUS
+	Product Name: ProArt PX13 HN7306EAC
+	Version: 1.0       
+	Serial Number: W3N0KD00B31814A
+	UUID: 3172895a-4f22-f747-a01c-4d1feff992e2
+	Wake-up Type: Power Switch
+	SKU Number:  
+	Family: ProArt PX13
+
+Handle 0x0008, DMI type 32, 11 bytes
+System Boot Information
+	Status: No errors detected
+
+Handle 0x0030, DMI type 12, 5 bytes
+System Configuration Options
+	Option 1: SMI:00B26C
+	Option 2: DSN:                                
+	Option 3: DSN:                                
+	Option 4: DSN:                                
+

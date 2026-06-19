@@ -1,0 +1,1891 @@
+{
+  "id" : "hero",
+  "class" : "system",
+  "claimed" : true,
+  "handle" : "DMI:0001",
+  "description" : "Convertible",
+  "product" : "ProArt PX13 HN7306EAC",
+  "vendor" : "ASUS",
+  "version" : "1.0",
+  "serial" : "W3N0KD00B31814A",
+  "width" : 64,
+  "configuration" : {
+    "boot" : "normal",
+    "chassis" : "convertible",
+    "family" : "ProArt PX13",
+    "uuid" : "3172895a-4f22-f747-a01c-4d1feff992e2"
+  },
+  "capabilities" : {
+    "smbios-3.7.0" : "SMBIOS version 3.7.0",
+    "dmi-3.7.0" : "DMI version 3.7.0",
+    "smp" : "Symmetric Multi-Processing",
+    "vsyscall32" : "32-bit processes"
+  },
+  "children" : [    {
+      "id" : "core",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "DMI:0002",
+      "description" : "Motherboard",
+      "product" : "HN7306EAC",
+      "vendor" : "ASUSTeK COMPUTER INC.",
+      "physid" : "0",
+      "version" : "1.0",
+      "serial" : "W311NBKD000RBPMB",
+      "slot" : "MIDDLE",
+      "children" : [        {
+          "id" : "firmware",
+          "class" : "memory",
+          "claimed" : true,
+          "description" : "BIOS",
+          "vendor" : "American Megatrends International, LLC.",
+          "physid" : "0",
+          "version" : "HN7306EAC.307",
+          "date" : "01/27/2026",
+          "units" : "bytes",
+          "size" : 65536,
+          "capacity" : 33554432,
+          "capabilities" : {
+            "pci" : "PCI bus",
+            "upgrade" : "BIOS EEPROM can be upgraded",
+            "shadowing" : "BIOS shadowing",
+            "cdboot" : "Booting from CD-ROM/DVD",
+            "bootselect" : "Selectable boot path",
+            "socketedrom" : "BIOS ROM is socketed",
+            "edd" : "Enhanced Disk Drive extensions",
+            "acpi" : "ACPI",
+            "smartbattery" : "Smart battery",
+            "biosbootspecification" : "BIOS boot specification",
+            "uefi" : "UEFI specification is supported"
+          }
+        },
+        {
+          "id" : "cache:0",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:000D",
+          "description" : "L1 cache",
+          "physid" : "d",
+          "slot" : "L1 - Cache",
+          "units" : "bytes",
+          "size" : 1310720,
+          "capacity" : 1310720,
+          "clock" : 1000000000,
+          "configuration" : {
+            "level" : "1"
+          },
+          "capabilities" : {
+            "pipeline-burst" : "Pipeline burst",
+            "internal" : "Internal",
+            "write-back" : "Write-back",
+            "unified" : "Unified cache"
+          }
+        },
+        {
+          "id" : "cache:1",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:000E",
+          "description" : "L2 cache",
+          "physid" : "e",
+          "slot" : "L2 - Cache",
+          "units" : "bytes",
+          "size" : 16777216,
+          "capacity" : 16777216,
+          "clock" : 1000000000,
+          "configuration" : {
+            "level" : "2"
+          },
+          "capabilities" : {
+            "pipeline-burst" : "Pipeline burst",
+            "internal" : "Internal",
+            "write-back" : "Write-back",
+            "unified" : "Unified cache"
+          }
+        },
+        {
+          "id" : "cache:2",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:000F",
+          "description" : "L3 cache",
+          "physid" : "f",
+          "slot" : "L3 - Cache",
+          "units" : "bytes",
+          "size" : 67108864,
+          "capacity" : 67108864,
+          "clock" : 1000000000,
+          "configuration" : {
+            "level" : "3"
+          },
+          "capabilities" : {
+            "pipeline-burst" : "Pipeline burst",
+            "internal" : "Internal",
+            "write-back" : "Write-back",
+            "unified" : "Unified cache"
+          }
+        },
+        {
+          "id" : "cpu",
+          "class" : "processor",
+          "claimed" : true,
+          "handle" : "DMI:0010",
+          "description" : "CPU",
+          "product" : "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+          "vendor" : "Advanced Micro Devices [AMD]",
+          "physid" : "10",
+          "businfo" : "cpu@0",
+          "version" : "26.112.0",
+          "serial" : "Unknown",
+          "slot" : "FP11LPDDR5x",
+          "units" : "Hz",
+          "size" : 1478191000,
+          "capacity" : 3000000000,
+          "width" : 64,
+          "clock" : 100000000,
+          "configuration" : {
+            "cores" : "16",
+            "enabledcores" : "16",
+            "microcode" : "191889463",
+            "threads" : "32"
+          },
+          "capabilities" : {
+            "lm" : "64bits extensions (x86-64)",
+            "fpu" : "mathematical co-processor",
+            "fpu_exception" : "FPU exceptions reporting",
+            "wp" : true,
+            "vme" : "virtual mode extensions",
+            "de" : "debugging extensions",
+            "pse" : "page size extensions",
+            "tsc" : "time stamp counter",
+            "msr" : "model-specific registers",
+            "pae" : "4GB+ memory addressing (Physical Address Extension)",
+            "mce" : "machine check exceptions",
+            "cx8" : "compare and exchange 8-byte",
+            "apic" : "on-chip advanced programmable interrupt controller (APIC)",
+            "sep" : "fast system calls",
+            "mtrr" : "memory type range registers",
+            "pge" : "page global enable",
+            "mca" : "machine check architecture",
+            "cmov" : "conditional move instruction",
+            "pat" : "page attribute table",
+            "pse36" : "36-bit page size extensions",
+            "clflush" : true,
+            "mmx" : "multimedia extensions (MMX)",
+            "fxsr" : "fast floating point save/restore",
+            "sse" : "streaming SIMD extensions (SSE)",
+            "sse2" : "streaming SIMD extensions (SSE2)",
+            "ht" : "HyperThreading",
+            "syscall" : "fast system calls",
+            "nx" : "no-execute bit (NX)",
+            "mmxext" : "multimedia extensions (MMXExt)",
+            "fxsr_opt" : true,
+            "pdpe1gb" : true,
+            "rdtscp" : true,
+            "x86-64" : "64bits extensions (x86-64)",
+            "constant_tsc" : true,
+            "rep_good" : true,
+            "amd_lbr_v2" : true,
+            "nopl" : true,
+            "xtopology" : true,
+            "nonstop_tsc" : true,
+            "cpuid" : true,
+            "extd_apicid" : true,
+            "aperfmperf" : true,
+            "rapl" : true,
+            "pni" : true,
+            "pclmulqdq" : true,
+            "monitor" : true,
+            "ssse3" : true,
+            "fma" : true,
+            "cx16" : true,
+            "sse4_1" : true,
+            "sse4_2" : true,
+            "movbe" : true,
+            "popcnt" : true,
+            "aes" : true,
+            "xsave" : true,
+            "avx" : true,
+            "f16c" : true,
+            "rdrand" : true,
+            "lahf_lm" : true,
+            "cmp_legacy" : true,
+            "svm" : true,
+            "extapic" : true,
+            "cr8_legacy" : true,
+            "abm" : true,
+            "sse4a" : true,
+            "misalignsse" : true,
+            "3dnowprefetch" : true,
+            "osvw" : true,
+            "ibs" : true,
+            "skinit" : true,
+            "wdt" : true,
+            "tce" : true,
+            "topoext" : true,
+            "perfctr_core" : true,
+            "perfctr_nb" : true,
+            "bpext" : true,
+            "perfctr_llc" : true,
+            "mwaitx" : true,
+            "cpuid_fault" : true,
+            "cpb" : true,
+            "cat_l3" : true,
+            "cdp_l3" : true,
+            "hw_pstate" : true,
+            "ssbd" : true,
+            "mba" : true,
+            "perfmon_v2" : true,
+            "ibrs" : true,
+            "ibpb" : true,
+            "stibp" : true,
+            "ibrs_enhanced" : true,
+            "vmmcall" : true,
+            "fsgsbase" : true,
+            "tsc_adjust" : true,
+            "bmi1" : true,
+            "avx2" : true,
+            "smep" : true,
+            "bmi2" : true,
+            "erms" : true,
+            "invpcid" : true,
+            "cqm" : true,
+            "rdt_a" : true,
+            "avx512f" : true,
+            "avx512dq" : true,
+            "rdseed" : true,
+            "adx" : true,
+            "smap" : true,
+            "avx512ifma" : true,
+            "clflushopt" : true,
+            "clwb" : true,
+            "avx512cd" : true,
+            "sha_ni" : true,
+            "avx512bw" : true,
+            "avx512vl" : true,
+            "xsaveopt" : true,
+            "xsavec" : true,
+            "xgetbv1" : true,
+            "xsaves" : true,
+            "cqm_llc" : true,
+            "cqm_occup_llc" : true,
+            "cqm_mbm_total" : true,
+            "cqm_mbm_local" : true,
+            "user_shstk" : true,
+            "avx_vnni" : true,
+            "avx512_bf16" : true,
+            "clzero" : true,
+            "irperf" : true,
+            "xsaveerptr" : true,
+            "rdpru" : true,
+            "wbnoinvd" : true,
+            "cppc" : true,
+            "arat" : true,
+            "npt" : true,
+            "lbrv" : true,
+            "svm_lock" : true,
+            "nrip_save" : true,
+            "tsc_scale" : true,
+            "vmcb_clean" : true,
+            "flushbyasid" : true,
+            "decodeassists" : true,
+            "pausefilter" : true,
+            "pfthreshold" : true,
+            "avic" : true,
+            "v_vmsave_vmload" : true,
+            "vgif" : true,
+            "x2avic" : true,
+            "v_spec_ctrl" : true,
+            "vnmi" : true,
+            "avx512vbmi" : true,
+            "umip" : true,
+            "pku" : true,
+            "ospke" : true,
+            "avx512_vbmi2" : true,
+            "gfni" : true,
+            "vaes" : true,
+            "vpclmulqdq" : true,
+            "avx512_vnni" : true,
+            "avx512_bitalg" : true,
+            "avx512_vpopcntdq" : true,
+            "rdpid" : true,
+            "bus_lock_detect" : true,
+            "movdiri" : true,
+            "movdir64b" : true,
+            "overflow_recov" : true,
+            "succor" : true,
+            "smca" : true,
+            "fsrm" : true,
+            "avx512_vp2intersect" : true,
+            "flush_l1d" : true,
+            "amd_lbr_pmc_freeze" : true,
+            "cpufreq" : "CPU Frequency scaling"
+          }
+        },
+        {
+          "id" : "memory",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:0013",
+          "description" : "System Memory",
+          "physid" : "13",
+          "slot" : "System board or motherboard",
+          "units" : "bytes",
+          "size" : 137438953472,
+          "children" : [            {
+              "id" : "bank:0",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0016",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "0",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            },
+            {
+              "id" : "bank:1",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0019",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "1",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            },
+            {
+              "id" : "bank:2",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:001C",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "2",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            },
+            {
+              "id" : "bank:3",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:001F",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "3",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            },
+            {
+              "id" : "bank:4",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0022",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "4",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            },
+            {
+              "id" : "bank:5",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0025",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "5",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            },
+            {
+              "id" : "bank:6",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0028",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "6",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            },
+            {
+              "id" : "bank:7",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:002B",
+              "description" : "Synchronous Unbuffered (Unregistered) 8533 MHz (0,1 ns)",
+              "product" : "K3KLALA0EM-MGCU",
+              "vendor" : "Samsung",
+              "physid" : "7",
+              "serial" : "000000004B334B4C",
+              "slot" : "DIMM 0",
+              "units" : "bytes",
+              "size" : 17179869184,
+              "width" : 32,
+              "clock" : 4238032704
+            }]
+        },
+        {
+          "id" : "pci:0",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix/Strix Halo Root Complex",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "100",
+          "businfo" : "pci@0000:00:00.0",
+          "version" : "02",
+          "width" : 32,
+          "clock" : 33000000,
+          "children" : [            {
+              "id" : "generic",
+              "class" : "generic",
+              "handle" : "PCI:0000:00:00.2",
+              "description" : "IOMMU",
+              "product" : "Strix/Strix Halo IOMMU",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "0.2",
+              "businfo" : "pci@0000:00:00.2",
+              "version" : "02",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "msi" : "Message Signalled Interrupts",
+                "ht" : "HyperTransport",
+                "cap_list" : "PCI capabilities listing"
+              }
+            },
+            {
+              "id" : "pci:0",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:01",
+              "description" : "PCI bridge",
+              "product" : "Strix/Strix Halo PCIe USB4 Bridge",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "1.1",
+              "businfo" : "pci@0000:00:01.1",
+              "version" : "02",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "ht" : "HyperTransport",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              }
+            },
+            {
+              "id" : "pci:1",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:61",
+              "description" : "PCI bridge",
+              "product" : "Strix/Strix Halo PCIe USB4 Bridge",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "1.2",
+              "businfo" : "pci@0000:00:01.2",
+              "version" : "02",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "ht" : "HyperTransport",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              }
+            },
+            {
+              "id" : "pci:2",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:c1",
+              "description" : "PCI bridge",
+              "product" : "Strix/Strix Halo GPP Bridge",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "2.2",
+              "businfo" : "pci@0000:00:02.2",
+              "version" : "02",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "ht" : "HyperTransport",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "generic",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c1:00.0",
+                  "description" : "MMC Host",
+                  "product" : "GL9755 SD Host Controller",
+                  "vendor" : "Genesys Logic, Inc",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:c1:00.0",
+                  "logicalname" : "mmc0",
+                  "version" : "01",
+                  "width" : 32,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "sdhci-pci",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "pm" : "Power Management",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                }]
+            },
+            {
+              "id" : "pci:3",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:c2",
+              "description" : "PCI bridge",
+              "product" : "Strix/Strix Halo GPP Bridge",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "2.3",
+              "businfo" : "pci@0000:00:02.3",
+              "version" : "02",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "ht" : "HyperTransport",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "network",
+                  "class" : "network",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c2:00.0",
+                  "description" : "Ethernet interface",
+                  "product" : "MT7925 802.11be 160MHz 2x2 PCIe Wireless Network Adapter [Filogic 360]",
+                  "vendor" : "MEDIATEK Corp.",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:c2:00.0",
+                  "logicalname" : "wlan0",
+                  "version" : "00",
+                  "serial" : "ec:3a:56:52:0b:c8",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "broadcast" : "yes",
+                    "driver" : "mt7925e",
+                    "driverversion" : "7.0.12-arch1-1",
+                    "firmware" : "____000000-20260414153105",
+                    "ip" : "192.168.3.162",
+                    "latency" : "0",
+                    "link" : "yes",
+                    "multicast" : "yes"
+                  },
+                  "capabilities" : {
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "pm" : "Power Management",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing",
+                    "ethernet" : true,
+                    "physical" : "Physical interface"
+                  }
+                }]
+            },
+            {
+              "id" : "pci:4",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:c3",
+              "description" : "PCI bridge",
+              "product" : "Strix/Strix Halo GPP Bridge",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "2.5",
+              "businfo" : "pci@0000:00:02.5",
+              "version" : "02",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "ht" : "HyperTransport",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "nvme",
+                  "class" : "storage",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c3:00.0",
+                  "description" : "NVMe device",
+                  "product" : "Sandisk PC SN5100S SDFQTSM-2T00-1002",
+                  "vendor" : "Sandisk Corp",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:c3:00.0",
+                  "logicalname" : "/dev/nvme0",
+                  "version" : "35170100",
+                  "serial" : "25483J800492",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "nvme",
+                    "latency" : "0",
+                    "nqn" : "nqn.2025-02.com.sandisk:guid:E8238FA6BF53-0001-001B448B4FA00068",
+                    "state" : "live"
+                  },
+                  "capabilities" : {
+                    "nvme" : true,
+                    "pm" : "Power Management",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "pciexpress" : "PCI Express",
+                    "nvm_express" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  },
+                  "children" : [                    {
+                      "id" : "namespace:0",
+                      "class" : "disk",
+                      "claimed" : true,
+                      "description" : "NVMe disk",
+                      "physid" : "0",
+                      "logicalname" : "hwmon4"
+                    },
+                    {
+                      "id" : "namespace:1",
+                      "class" : "disk",
+                      "claimed" : true,
+                      "description" : "NVMe disk",
+                      "physid" : "2",
+                      "logicalname" : "/dev/ng0n1"
+                    },
+                    {
+                      "id" : "namespace:2",
+                      "class" : "disk",
+                      "claimed" : true,
+                      "handle" : "GUID:2117fbd0-e096-48ff-ac6a-28da13e4d68b",
+                      "description" : "NVMe disk",
+                      "physid" : "1",
+                      "businfo" : "nvme@0:1",
+                      "logicalname" : "/dev/nvme0n1",
+                      "units" : "bytes",
+                      "size" : 2048408248320,
+                      "configuration" : {
+                        "guid" : "2117fbd0-e096-48ff-ac6a-28da13e4d68b",
+                        "logicalsectorsize" : "512",
+                        "sectorsize" : "512",
+                        "wwid" : "eui.e8238fa6bf530001001b448b4fa00068"
+                      },
+                      "capabilities" : {
+                        "gpt-1.00" : "GUID Partition Table version 1.00",
+                        "partitioned" : "Partitioned disk",
+                        "partitioned:gpt" : "GUID partition table"
+                      },
+                      "children" : [                        {
+                          "id" : "volume:0",
+                          "class" : "volume",
+                          "handle" : "GUID:3feafc67-d116-4ee3-9013-9fa22e9168e4",
+                          "description" : "Windows FAT volume",
+                          "vendor" : "mkfs.fat",
+                          "physid" : "1",
+                          "businfo" : "nvme@0:1,1",
+                          "version" : "FAT32",
+                          "serial" : "254b-dcaf",
+                          "size" : 1072676864,
+                          "capacity" : 1073741312,
+                          "configuration" : {
+                            "FATs" : "2",
+                            "filesystem" : "fat",
+                            "label" : "EFI",
+                            "name" : "EFI"
+                          },
+                          "capabilities" : {
+                            "boot" : "Contains boot code",
+                            "fat" : "Windows FAT volume",
+                            "initialized" : "initialized volume"
+                          }
+                        },
+                        {
+                          "id" : "volume:1",
+                          "class" : "volume",
+                          "claimed" : true,
+                          "handle" : "GUID:24c669b0-b2f1-4ff4-a250-7f965bb2efee",
+                          "description" : "EFI partition",
+                          "physid" : "2",
+                          "businfo" : "nvme@0:1,2",
+                          "logicalname" : "/dev/nvme0n1p2",
+                          "dev" : "259:2",
+                          "serial" : "d294d825-c130-4bf4-884f-be2bbb7b9ea2",
+                          "size" : 2047333440512,
+                          "capacity" : 2047333440512,
+                          "width" : 553333488,
+                          "configuration" : {
+                            "bits" : "17733202672",
+                            "filesystem" : "luks",
+                            "hash" : "sha256",
+                            "name" : "cryptroot",
+                            "version" : "2"
+                          },
+                          "capabilities" : {
+                            "encrypted" : "Encrypted volume",
+                            "luks" : "Linux Unified Key Setup volume",
+                            "initialized" : "initialized volume"
+                          }
+                        }]
+                    }]
+                }]
+            },
+            {
+              "id" : "pci:5",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:c4",
+              "description" : "PCI bridge",
+              "product" : "Video Bus",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "8.1",
+              "businfo" : "pci@0000:00:08.1",
+              "logicalname" : ["input3", "/dev/input/event3"],
+              "version" : "00",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "platform" : true
+              },
+              "children" : [                {
+                  "id" : "display",
+                  "class" : "display",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c4:00.0",
+                  "description" : "Display controller",
+                  "product" : "Strix Halo [Radeon Graphics / Radeon 8050S Graphics / Radeon 8060S Graphics]",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD/ATI]",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:c4:00.0",
+                  "logicalname" : "/dev/fb0",
+                  "version" : "c1",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "depth" : "32",
+                    "driver" : "amdgpu",
+                    "latency" : "0",
+                    "mode" : "2880x1800",
+                    "resolution" : "2880,1800",
+                    "visual" : "truecolor",
+                    "xres" : "2880",
+                    "yres" : "1800"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing",
+                    "fb" : "framebuffer"
+                  }
+                },
+                {
+                  "id" : "multimedia:0",
+                  "class" : "multimedia",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c4:00.1",
+                  "description" : "Audio device",
+                  "product" : "Radeon High Definition Audio Controller",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD/ATI]",
+                  "physid" : "0.1",
+                  "businfo" : "pci@0000:c4:00.1",
+                  "logicalname" : ["card0", "/dev/snd/controlC0", "/dev/snd/hwC0D0", "/dev/snd/pcmC0D3p", "/dev/snd/pcmC0D7p", "/dev/snd/pcmC0D8p", "/dev/snd/pcmC0D9p"],
+                  "version" : "00",
+                  "width" : 32,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "snd_hda_intel",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "hda_compatible" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  },
+                  "children" : [                    {
+                      "id" : "input:0",
+                      "class" : "input",
+                      "claimed" : true,
+                      "product" : "HD-Audio Generic HDMI/DP,pcm=3",
+                      "physid" : "0",
+                      "logicalname" : ["input29", "/dev/input/event16"]
+                    },
+                    {
+                      "id" : "input:1",
+                      "class" : "input",
+                      "claimed" : true,
+                      "product" : "HD-Audio Generic HDMI/DP,pcm=7",
+                      "physid" : "1",
+                      "logicalname" : ["input30", "/dev/input/event17"]
+                    },
+                    {
+                      "id" : "input:2",
+                      "class" : "input",
+                      "claimed" : true,
+                      "product" : "HD-Audio Generic HDMI/DP,pcm=8",
+                      "physid" : "2",
+                      "logicalname" : ["input31", "/dev/input/event18"]
+                    },
+                    {
+                      "id" : "input:3",
+                      "class" : "input",
+                      "claimed" : true,
+                      "product" : "HD-Audio Generic HDMI/DP,pcm=9",
+                      "physid" : "3",
+                      "logicalname" : ["input32", "/dev/input/event19"]
+                    }]
+                },
+                {
+                  "id" : "generic:0",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c4:00.2",
+                  "description" : "Encryption controller",
+                  "product" : "Strix/Krackan/Strix Halo CCP/ASP",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.2",
+                  "businfo" : "pci@0000:c4:00.2",
+                  "version" : "00",
+                  "width" : 32,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "ccp",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                },
+                {
+                  "id" : "usb",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c4:00.4",
+                  "description" : "USB controller",
+                  "product" : "Strix Halo USB 3.1 xHCI",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.4",
+                  "businfo" : "pci@0000:c4:00.4",
+                  "version" : "00",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "xhci_hcd",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "xhci" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  },
+                  "children" : [                    {
+                      "id" : "usbhost:0",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:1:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "0",
+                      "businfo" : "usb@1",
+                      "logicalname" : "usb1",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "1",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      },
+                      "children" : [                        {
+                          "id" : "usb",
+                          "class" : "multimedia",
+                          "claimed" : true,
+                          "handle" : "USB:1:2",
+                          "description" : "Video",
+                          "product" : "ASUS FHD webcam",
+                          "vendor" : "Azurewave",
+                          "physid" : "1",
+                          "businfo" : "usb@1:1",
+                          "version" : "25.01",
+                          "serial" : "200901010001",
+                          "configuration" : {
+                            "driver" : "usbhid",
+                            "maxpower" : "500mA",
+                            "speed" : "480Mbit/s"
+                          },
+                          "capabilities" : {
+                            "usb-2.01" : true
+                          }
+                        }]
+                    },
+                    {
+                      "id" : "usbhost:1",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:2:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "1",
+                      "businfo" : "usb@2",
+                      "logicalname" : "usb2",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "1",
+                        "speed" : "10000Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-3.10" : true
+                      }
+                    }]
+                },
+                {
+                  "id" : "multimedia:1",
+                  "class" : "multimedia",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c4:00.5",
+                  "description" : "Multimedia controller",
+                  "product" : "Audio Coprocessor",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.5",
+                  "businfo" : "pci@0000:c4:00.5",
+                  "logicalname" : ["card1", "/dev/snd/controlC1", "/dev/snd/pcmC1D0p", "/dev/snd/pcmC1D1c", "/dev/snd/pcmC1D2p", "/dev/snd/pcmC1D3c", "/dev/snd/pcmC1D4c"],
+                  "version" : "70",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "snd_pci_ps",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                },
+                {
+                  "id" : "generic:1",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c4:00.7",
+                  "description" : "Signal processing controller",
+                  "product" : "Sensor Fusion Hub",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.7",
+                  "businfo" : "pci@0000:c4:00.7",
+                  "version" : "00",
+                  "width" : 32,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "pcie_mp2_amd",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                }]
+            },
+            {
+              "id" : "pci:6",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:c5",
+              "description" : "PCI bridge",
+              "product" : "Strix/Strix Halo Internal GPP Bridge to Bus [C:A]",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "8.2",
+              "businfo" : "pci@0000:00:08.2",
+              "version" : "00",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "generic:0",
+                  "class" : "generic",
+                  "handle" : "PCI:0000:c5:00.0",
+                  "description" : "Non-Essential Instrumentation",
+                  "product" : "Strix/Strix Halo PCIe Dummy Function",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:c5:00.0",
+                  "version" : "00",
+                  "width" : 32,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                },
+                {
+                  "id" : "generic:1",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c5:00.1",
+                  "description" : "Signal processing controller",
+                  "product" : "Strix/Krackan/Strix Halo Neural Processing Unit",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.1",
+                  "businfo" : "pci@0000:c5:00.1",
+                  "version" : "11",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "amdxdna",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                }]
+            },
+            {
+              "id" : "pci:7",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:c6",
+              "description" : "PCI bridge",
+              "product" : "Strix/Strix Halo Internal GPP Bridge to Bus [C:A]",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "8.3",
+              "businfo" : "pci@0000:00:08.3",
+              "version" : "00",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pm" : "Power Management",
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "usb:0",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c6:00.0",
+                  "description" : "USB controller",
+                  "product" : "Strix Halo USB 3.1 xHCI",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:c6:00.0",
+                  "version" : "00",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "xhci_hcd",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "xhci" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  },
+                  "children" : [                    {
+                      "id" : "usbhost:0",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:3:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "0",
+                      "businfo" : "usb@3",
+                      "logicalname" : "usb3",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "5",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      },
+                      "children" : [                        {
+                          "id" : "usb",
+                          "class" : "communication",
+                          "claimed" : true,
+                          "handle" : "USB:3:2",
+                          "description" : "Bluetooth wireless interface",
+                          "product" : "Wireless_Device",
+                          "vendor" : "MediaTek Inc.",
+                          "physid" : "3",
+                          "businfo" : "usb@3:3",
+                          "version" : "1.00",
+                          "serial" : "000000000",
+                          "configuration" : {
+                            "driver" : "btusb",
+                            "maxpower" : "100mA",
+                            "speed" : "480Mbit/s"
+                          },
+                          "capabilities" : {
+                            "usb-2.10" : true,
+                            "bluetooth" : "Bluetooth wireless radio"
+                          }
+                        }]
+                    },
+                    {
+                      "id" : "usbhost:1",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:4:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "1",
+                      "businfo" : "usb@4",
+                      "logicalname" : "usb4",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "2",
+                        "speed" : "10000Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-3.10" : true
+                      }
+                    }]
+                },
+                {
+                  "id" : "usb:1",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c6:00.3",
+                  "description" : "USB controller",
+                  "product" : "Strix Halo USB 3.1 xHCI",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.3",
+                  "businfo" : "pci@0000:c6:00.3",
+                  "version" : "00",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "xhci_hcd",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "xhci" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  },
+                  "children" : [                    {
+                      "id" : "usbhost:0",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:5:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "0",
+                      "businfo" : "usb@5",
+                      "logicalname" : "usb5",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "1",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      }
+                    },
+                    {
+                      "id" : "usbhost:1",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:6:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "1",
+                      "businfo" : "usb@6",
+                      "logicalname" : "usb6",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "1",
+                        "speed" : "10000Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-3.10" : true
+                      }
+                    }]
+                },
+                {
+                  "id" : "usb:2",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c6:00.4",
+                  "description" : "USB controller",
+                  "product" : "Strix Halo USB 3.1 xHCI",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.4",
+                  "businfo" : "pci@0000:c6:00.4",
+                  "version" : "00",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "xhci_hcd",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "xhci" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  },
+                  "children" : [                    {
+                      "id" : "usbhost:0",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:7:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "0",
+                      "businfo" : "usb@7",
+                      "logicalname" : "usb7",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "1",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      }
+                    },
+                    {
+                      "id" : "usbhost:1",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:8:1",
+                      "product" : "xHCI Host Controller",
+                      "vendor" : "Linux 7.0.12-arch1-1 xhci-hcd",
+                      "physid" : "1",
+                      "businfo" : "usb@8",
+                      "logicalname" : "usb8",
+                      "version" : "7.00",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "1",
+                        "speed" : "10000Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-3.10" : true
+                      }
+                    }]
+                },
+                {
+                  "id" : "usb:3",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c6:00.5",
+                  "description" : "USB controller",
+                  "product" : "Strix Halo USB4 Host Router",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.5",
+                  "businfo" : "pci@0000:c6:00.5",
+                  "version" : "00",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "thunderbolt",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "usb4_host_interface" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                },
+                {
+                  "id" : "usb:4",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:c6:00.6",
+                  "description" : "USB controller",
+                  "product" : "Strix Halo USB4 Host Router",
+                  "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+                  "physid" : "0.6",
+                  "businfo" : "pci@0000:c6:00.6",
+                  "version" : "00",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "thunderbolt",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "pciexpress" : "PCI Express",
+                    "msi" : "Message Signalled Interrupts",
+                    "msix" : "MSI-X",
+                    "usb4_host_interface" : true,
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                }]
+            },
+            {
+              "id" : "serial",
+              "class" : "bus",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:14.0",
+              "description" : "SMBus",
+              "product" : "FCH SMBus Controller",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "14",
+              "businfo" : "pci@0000:00:14.0",
+              "version" : "71",
+              "width" : 32,
+              "clock" : 66000000,
+              "configuration" : {
+                "driver" : "piix4_smbus",
+                "latency" : "0"
+              }
+            },
+            {
+              "id" : "isa",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:14.3",
+              "description" : "ISA bridge",
+              "product" : "FCH LPC Bridge",
+              "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+              "physid" : "14.3",
+              "businfo" : "pci@0000:00:14.3",
+              "version" : "51",
+              "width" : 32,
+              "clock" : 66000000,
+              "configuration" : {
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "isa" : true,
+                "bus_master" : "bus mastering"
+              },
+              "children" : [                {
+                  "id" : "pnp00:00",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "AT Real-Time Clock",
+                  "physid" : "0",
+                  "configuration" : {
+                    "driver" : "rtc_cmos"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:01",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "product" : "PnP device ATK3001",
+                  "vendor" : "Allied Telesyn Int'l",
+                  "physid" : "1",
+                  "configuration" : {
+                    "driver" : "i8042 kbd"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "input",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "Lid Switch",
+                  "physid" : "2",
+                  "logicalname" : ["input0", "/dev/input/event0"],
+                  "capabilities" : {
+                    "platform" : true
+                  }
+                }]
+            }]
+        },
+        {
+          "id" : "pci:1",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix/Strix Halo Dummy Host Bridge",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "101",
+          "businfo" : "pci@0000:00:01.0",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:2",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix/Strix Halo Dummy Host Bridge",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "102",
+          "businfo" : "pci@0000:00:02.0",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:3",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix/Strix Halo Dummy Host Bridge",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "103",
+          "businfo" : "pci@0000:00:03.0",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:4",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix/Strix Halo Dummy Host Bridge",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "104",
+          "businfo" : "pci@0000:00:08.0",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:5",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 0",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "105",
+          "businfo" : "pci@0000:00:18.0",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:6",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 1",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "106",
+          "businfo" : "pci@0000:00:18.1",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:7",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 2",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "107",
+          "businfo" : "pci@0000:00:18.2",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:8",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 3",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "108",
+          "businfo" : "pci@0000:00:18.3",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "k10temp"
+          }
+        },
+        {
+          "id" : "pci:9",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 4",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "109",
+          "businfo" : "pci@0000:00:18.4",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:10",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 5",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "10a",
+          "businfo" : "pci@0000:00:18.5",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:11",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 6",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "10b",
+          "businfo" : "pci@0000:00:18.6",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        },
+        {
+          "id" : "pci:12",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Strix Halo Data Fabric; Function 7",
+          "vendor" : "Advanced Micro Devices, Inc. [AMD]",
+          "physid" : "10c",
+          "businfo" : "pci@0000:00:18.7",
+          "version" : "00",
+          "width" : 32,
+          "clock" : 33000000
+        }]
+    },
+    {
+      "id" : "input:0",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Power Button",
+      "physid" : "1",
+      "logicalname" : ["input1", "/dev/input/event1"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:1",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ASCF1A03:00 2808:0357 Mouse",
+      "physid" : "2",
+      "logicalname" : ["input15", "/dev/input/event6", "/dev/input/mouse0"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:2",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ASCF1A03:00 2808:0357 Touchpad",
+      "physid" : "3",
+      "logicalname" : ["input16", "/dev/input/event7", "/dev/input/mouse1"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:3",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Asus WMI hotkeys",
+      "physid" : "4",
+      "logicalname" : ["input19", "/dev/input/event8"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:4",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "AT Translated Set 2 keyboard",
+      "physid" : "5",
+      "logicalname" : ["input2", "/dev/input/event2", "input2::capslock", "input2::numlock", "input2::scrolllock"],
+      "capabilities" : {
+        "i8042" : "i8042 PC AT keyboard controller"
+      }
+    },
+    {
+      "id" : "input:5",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ELAN9008:00 04F3:4631",
+      "physid" : "6",
+      "logicalname" : ["input20", "/dev/input/event9", "/dev/input/mouse2"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:6",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ELAN9008:00 04F3:4631 UNKNOWN",
+      "physid" : "7",
+      "logicalname" : ["input21", "/dev/input/event10"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:7",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ELAN9008:00 04F3:4631 Stylus",
+      "physid" : "8",
+      "logicalname" : ["input22", "/dev/input/event11", "/dev/input/mouse3"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:8",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ELAN9008:00 04F3:4631 UNKNOWN",
+      "physid" : "9",
+      "logicalname" : ["input24", "/dev/input/event12"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:9",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ELAN9008:00 04F3:4631 UNKNOWN",
+      "physid" : "a",
+      "logicalname" : ["input25", "/dev/input/event13"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:10",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ELAN9008:00 04F3:4631 UNKNOWN",
+      "physid" : "b",
+      "logicalname" : ["input26", "/dev/input/event14"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:11",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ELAN9008:00 04F3:4631 UNKNOWN",
+      "physid" : "c",
+      "logicalname" : ["input27", "/dev/input/event15"],
+      "capabilities" : {
+        "i2c" : "I²C bus"
+      }
+    },
+    {
+      "id" : "input:12",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "PC Speaker",
+      "physid" : "d",
+      "logicalname" : ["input4", "/dev/input/event4"],
+      "capabilities" : {
+        "isa" : "ISA bus"
+      }
+    },
+    {
+      "id" : "input:13",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "gpio-keys",
+      "physid" : "e",
+      "logicalname" : ["input5", "/dev/input/event5"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:14",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "amd-soundwire Headset Jack",
+      "physid" : "f",
+      "logicalname" : ["input57", "/dev/input/event20"]
+    }]
+}

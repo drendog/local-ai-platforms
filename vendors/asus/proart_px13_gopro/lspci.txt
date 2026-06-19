@@ -1,0 +1,40 @@
+00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Root Complex (rev 02)
+00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo IOMMU (rev 02)
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Dummy Host Bridge
+00:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo PCIe USB4 Bridge (rev 02)
+00:01.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo PCIe USB4 Bridge (rev 02)
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Dummy Host Bridge
+00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo GPP Bridge (rev 02)
+00:02.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo GPP Bridge (rev 02)
+00:02.5 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo GPP Bridge (rev 02)
+00:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Dummy Host Bridge
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Dummy Host Bridge
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Internal GPP Bridge to Bus [C:A]
+00:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Internal GPP Bridge to Bus [C:A]
+00:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo Internal GPP Bridge to Bus [C:A]
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 71)
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 0
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 1
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 2
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 3
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 4
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 5
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 6
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Strix Halo Data Fabric; Function 7
+c1:00.0 SD Host controller: Genesys Logic, Inc GL9755 SD Host Controller (rev 01)
+c2:00.0 Network controller: MEDIATEK Corp. MT7925 802.11be 160MHz 2x2 PCIe Wireless Network Adapter [Filogic 360]
+c3:00.0 Non-Volatile memory controller: Sandisk Corp Device 5061
+c4:00.0 Display controller: Advanced Micro Devices, Inc. [AMD/ATI] Strix Halo [Radeon Graphics / Radeon 8050S Graphics / Radeon 8060S Graphics] (rev c1)
+c4:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Radeon High Definition Audio Controller
+c4:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Strix/Krackan/Strix Halo CCP/ASP
+c4:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Strix Halo USB 3.1 xHCI
+c4:00.5 Multimedia controller: Advanced Micro Devices, Inc. [AMD] Audio Coprocessor (rev 70)
+c4:00.7 Signal processing controller: Advanced Micro Devices, Inc. [AMD] Sensor Fusion Hub
+c5:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Strix/Strix Halo PCIe Dummy Function
+c5:00.1 Signal processing controller: Advanced Micro Devices, Inc. [AMD] Strix/Krackan/Strix Halo Neural Processing Unit (rev 11)
+c6:00.0 USB controller: Advanced Micro Devices, Inc. [AMD] Strix Halo USB 3.1 xHCI
+c6:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Strix Halo USB 3.1 xHCI
+c6:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Strix Halo USB 3.1 xHCI
+c6:00.5 USB controller: Advanced Micro Devices, Inc. [AMD] Strix Halo USB4 Host Router
+c6:00.6 USB controller: Advanced Micro Devices, Inc. [AMD] Strix Halo USB4 Host Router
