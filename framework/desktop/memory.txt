@@ -1,0 +1,293 @@
+# dmidecode 3.7
+Getting SMBIOS data from sysfs.
+SMBIOS 3.3.0 present.
+
+Handle 0x0013, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 64 GiB
+	Error Information Handle: 0x001C
+	Number Of Devices: 8
+
+Handle 0x0014, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x001D
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL A
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0015, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x001E
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL B
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0016, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x001F
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL C
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0017, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x0020
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL D
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0018, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x0021
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL E
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0019, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x0022
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL F
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x001A, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x0023
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL G
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x001B, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x0024
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 16 GiB
+	Form Factor: Other
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL H
+	Type: LPDDR5
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 8000 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: [REDACTED]
+	Asset Tag: [REDACTED]
+	Part Number: MT62F4G32D8DV-023 WT
+	Rank: 2
+	Configured Memory Speed: 8000 MT/s
+	Minimum Voltage: 0.5 V
+	Maximum Voltage: 0.5 V
+	Configured Voltage: 0.5 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GiB
+	Cache Size: None
+	Logical Size: None
+
